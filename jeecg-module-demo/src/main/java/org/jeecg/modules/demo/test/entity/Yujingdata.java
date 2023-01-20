@@ -21,7 +21,7 @@ import lombok.experimental.Accessors;
 /**
  * @Description: 预警数据
  * @Author: jeecg-boot
- * @Date:   2023-01-14
+ * @Date:   2023-01-17
  * @Version: V1.0
  */
 @Data
@@ -42,8 +42,20 @@ public class Yujingdata implements Serializable {
     @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
     @ApiModelProperty(value = "时间")
     private java.util.Date datatime;
-	/**fengsu*/
-	@Excel(name = "fengsu", width = 15)
-    @ApiModelProperty(value = "fengsu")
+	/**风速*/
+	@Excel(name = "风速", width = 15)
+    @ApiModelProperty(value = "风速")
     private java.lang.Double fengsu;
+	/**风向*/
+	@Excel(name = "风向", width = 15)
+    @ApiModelProperty(value = "风向")
+    private java.lang.Double fengxiang;
+	/**温度*/
+	@Excel(name = "温度", width = 15)
+    @ApiModelProperty(value = "温度")
+    private java.lang.Double wendu;
+	/**湿度*/
+	@Excel(name = "湿度", width = 15)
+    @ApiModelProperty(value = "湿度")
+    private java.lang.Double shidu;
 }

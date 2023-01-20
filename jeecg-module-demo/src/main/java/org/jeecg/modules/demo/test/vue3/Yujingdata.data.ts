@@ -10,9 +10,24 @@ export const columns: BasicColumn[] = [
     dataIndex: 'datatime'
    },
    {
-    title: 'fengsu',
+    title: '风速',
     align:"center",
     dataIndex: 'fengsu'
+   },
+   {
+    title: '风向',
+    align:"center",
+    dataIndex: 'fengxiang'
+   },
+   {
+    title: '温度',
+    align:"center",
+    dataIndex: 'wendu'
+   },
+   {
+    title: '湿度',
+    align:"center",
+    dataIndex: 'shidu'
    },
 ];
 //查询数据
@@ -30,8 +45,23 @@ export const formSchema: FormSchema[] = [
      },
   },
   {
-    label: 'fengsu',
+    label: '风速',
     field: 'fengsu',
+    component: 'InputNumber',
+  },
+  {
+    label: '风向',
+    field: 'fengxiang',
+    component: 'InputNumber',
+  },
+  {
+    label: '温度',
+    field: 'wendu',
+    component: 'InputNumber',
+  },
+  {
+    label: '湿度',
+    field: 'shidu',
     component: 'InputNumber',
   },
 	// TODO 主键隐藏字段，目前写死为ID

@@ -10,7 +10,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 /**
  * @Description: 预警数据
  * @Author: jeecg-boot
- * @Date:   2023-01-14
+ * @Date:   2023-01-17
  * @Version: V1.0
  */
 @Service

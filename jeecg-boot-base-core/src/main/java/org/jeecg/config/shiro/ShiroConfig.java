@@ -130,6 +130,7 @@ public class ShiroConfig {
         filterChainDefinitionMap.put("/jmreport/**", "anon");
         filterChainDefinitionMap.put("/**/*.js.map", "anon");
         filterChainDefinitionMap.put("/**/*.css.map", "anon");
+
         
         //大屏模板例子
         filterChainDefinitionMap.put("/test/bigScreen/**", "anon");

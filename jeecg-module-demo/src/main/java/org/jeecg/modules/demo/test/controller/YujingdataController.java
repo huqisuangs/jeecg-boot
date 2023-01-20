@@ -40,7 +40,7 @@ import org.apache.shiro.authz.annotation.RequiresPermissions;
  /**
  * @Description: 预警数据
  * @Author: jeecg-boot
- * @Date:   2023-01-14
+ * @Date:   2023-01-17
  * @Version: V1.0
  */
 @Api(tags="预警数据")
